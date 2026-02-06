@@ -1,0 +1,73 @@
+.data-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #cce7ff;
+  position: relative;
+}
+
+.data-card {
+  background: white;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.data-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.data-card th, .data-card td {
+  padding: 12px;
+  border: 1px solid #333;
+}
+
+.data-card th {
+  background: #007bff;
+  color: white;
+}
+
+/* Logout button top-left */
+button.logout {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.logout:hover {
+  background: #cc0000;
+}
+
+/* Date picker + CSV button side by side */
+.date-csv-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.csv-button {
+  padding: 6px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.csv-button:hover {
+  background: #1e7e34;
+}

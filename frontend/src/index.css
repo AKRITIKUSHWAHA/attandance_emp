@@ -1,0 +1,77 @@
+/* Full screen layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #cce7ff; /* light blue background */
+}
+
+.page {
+  height: 100vh;               
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  background: white;           
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.green {
+  width: 95%;
+  padding: 10px;
+  background: #28a745;          /* green color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button.green:hover {
+  background: #1e7e34;
+}
+
+/* Data page logout button */
+button.red {
+  padding: 10px 20px;
+  background: #ff4d4d;          
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button.red:hover {
+  background: #cc0000;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #333;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
